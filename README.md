@@ -1,7 +1,7 @@
 # Bootstrapper
 An ultra-lightweight environment manager written in native Python. This script checks for missing dependencies, installs them via pip, and automatically runs your project.
 
-##Features
+## Features
 1.Zero Dependencies: The bootstrapper uses only Python's standard library.
 
 2.Auto-Installation: Detects whether a library is internal (standard) or external.
@@ -10,7 +10,7 @@ An ultra-lightweight environment manager written in native Python. This script c
 
 4.Debug Mode: Real-time tracking of what is being ignored or installed.
 
-#Usage
+### Usage
 Configure your PROJECT dictionary in bootstrap.py:
 `PROJECT = {`
   `“LAUNCH_INFOS”: {`
